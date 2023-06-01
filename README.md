@@ -1,5 +1,7 @@
 # React Portfolio
 
+Deployed Page: https://jalvarez322.github.io/React-Portfolio/
+
 ## Description
 
 Greetings! Welcome to my React Portfolio! this portfolio will be showcasing the projects i've made by myself, and with a group during my full stack dev bootcamp. This portfolio was built
