@@ -83,23 +83,21 @@ export default function Home() {
              Other then coding, I also have other interest such as traveling, gaming, and sports
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-             Recently graduated from University of Central Florida Full stack bootcamp, I am proficent HTML, CSS, React Native and more
+             Recently graduated from University of Central Florida Full stack bootcamp, I am proficent HTML, CSS, React Native, Javascript and more!
             </p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                
+                Designs
               </h3>
               <p className="py-2">
-                
+                Creating designs for webpages that suit your needs
               </p>
-              <h4 className="py-4 text-teal-600"></h4>
-              <p className="text-gray-800 py-1"></p>
-              <p className="text-gray-800 py-1"></p>
-              <p className="text-gray-800 py-1"></p>
-              <p className="text-gray-800 py-1"></p>
+              <h4 className="py-4 text-teal-600">Design Tools I Us</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Illustrator</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
@@ -110,19 +108,14 @@ export default function Home() {
               <p className="text-gray-800 py-1">HTML</p>
               <p className="text-gray-800 py-1">React Native</p>
               <p className="text-gray-800 py-1">CSS</p>
+              <p className="text-gray-800 py-1">Javascrip</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Feedback</h3>
               <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
+                Questions of feedback? Don't hesitate to reach out!
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
             </div>
           </div>
         </section>
@@ -130,16 +123,8 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              Since the beginning of my journey as a full stack developer, I've created projects and worked
+              on projects in my boot camp!
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
