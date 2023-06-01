@@ -45,6 +45,12 @@ export default function Home() {
                 >
                   Resume
                 </a>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://github.com/jalvarez322?tab=overview&from=2023-03-01&to=2023-03-31"
+                >
+                  Github
+                </a>
               </li>
             </ul>
           </nav>
@@ -73,10 +79,11 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-             My name is Julio Alvarez! I'm a full stack developer and currently reside in Orlando, Florida.
+             My name is Julio Alvarez! I am 30 years old and i'm a full stack developer and currently reside in Orlando, Florida.
+             Other then coding, I also have other interest such as traveling, gaming, and sports
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I'm currently attending a full stack developer bootcamp
+             Recently graduated from University of Central Florida Full stack bootcamp, I am proficent HTML, CSS, React Native and more
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -97,16 +104,12 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Technlogies I use 
+                Skills
               </h3>
-              <p className="py-2">
-                Coding Technlogies I currently use for projects and for upcoming projects.
-              </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">Coding that I am proficent in</h4>
+              <p className="text-gray-800 py-1">HTML</p>
+              <p className="text-gray-800 py-1">React Native</p>
+              <p className="text-gray-800 py-1">CSS</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
