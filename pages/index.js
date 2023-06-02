@@ -108,7 +108,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">HTML</p>
               <p className="text-gray-800 py-1">React Native</p>
               <p className="text-gray-800 py-1">CSS</p>
-              <p className="text-gray-800 py-1">Javascrip</p>
+              <p className="text-gray-800 py-1">Javascript</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
