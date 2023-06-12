@@ -11,9 +11,9 @@ import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
-import web1 from "../public/project1test2.png";
+import web1 from "../public/screenshot.png";
 import web2 from "../public/project2.png";
-import web3 from "../public/workday.png";
+import web3 from "../public/project1test2.png";
 import web4 from "../public/readme.png";
 import web5 from "../public/password.png";
 import web6 from "../public/portfolio.png";
@@ -50,6 +50,12 @@ export default function Home() {
                   href="https://github.com/jalvarez322?tab=overview&from=2023-03-01&to=2023-03-31"
                 >
                   Github
+                </a>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://hero-showdown.herokuapp.com/"
+                >
+                  Latest Project
                 </a>
               </li>
             </ul>
